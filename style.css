@@ -1,6 +1,7 @@
 body {
     font-size: 14px;
     font-family: Roboto,arial,sans-serif;
+    text-align: center;
 }
 
 button {
@@ -9,10 +10,7 @@ button {
     color: #222;
 }
 
-#header {
-    position: absolute;
-    top: 0;
-}
+
 
 .center {
     margin: 0;
@@ -29,9 +27,20 @@ button {
     margin: auto;
 }
 
+#header {
+    height: 50px;
+    width: 100%;
+    position: absolute;
+    top: 0;
+}
+
 #footer {
+    height: 50px;
+    width: 100%;
     color: #70757a;
+    background-color: #f3f3f2;
     position: absolute;
     bottom: 0;
     text-align: center;
+    margin-right: 0;
 }
