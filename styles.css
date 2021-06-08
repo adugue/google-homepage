@@ -2,6 +2,7 @@ body {
     font-size: 14px;
     font-family: Roboto,arial,sans-serif;
     text-align: center;
+    margin: 0;
 }
 
 button {
@@ -20,16 +21,8 @@ button {
 }
 
 .centerImage {
-    
     display: block;
     margin: auto;
-}
-
-.header {
-    height: 50px;
-    width: 100%;
-    position: absolute;
-    top: 0;
 }
 
 .footer {
@@ -49,10 +42,19 @@ button {
     width: 487px;
     height: 34px;
     margin: 10px;
+    margin-top: 25px;
 }
 
-.button {
-    margin-top: 30px;
+.smallbutton {
+    display:inline-block;
+    padding-top: 4px;
+    padding-bottom: 4px;
+    padding-left: 8px;
+    padding-right: 8x;
+}
+
+.largebutton {
+    margin-top: 25px;
     margin-left: 10px;
     margin-right: 10px;
     padding-top: 5px;
@@ -61,14 +63,35 @@ button {
     padding-right: 10px;
 }
 
-a.top {
+.top {
+
+    height:75px;
+    padding-top:10px;
+}
+
+a.above {
+    height: 30px;
     margin-left: 10px;
     margin-right: 10px;
 }
 
-
 a.bottom {
-    
     margin-left: 10px;
     margin-right: 10px;
+}
+
+.leftsection {
+    position: absolute;
+    left: 20px;
+    display: inline-block;
+    text-align: left;
+    padding: 6px;
+}
+
+.rightsection {
+    position: absolute;
+    right: 20px;
+    height:30px;
+    display: inline-block;
+    text-align: right;
 }
