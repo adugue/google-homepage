@@ -25,14 +25,14 @@ button {
     margin: auto;
 }
 
-#header {
+.header {
     height: 50px;
     width: 100%;
     position: absolute;
     top: 0;
 }
 
-#footer {
+.footer {
     height: 50px;
     width: 100%;
     color: #70757a;
@@ -41,4 +41,34 @@ button {
     bottom: 0;
     text-align: center;
     margin-right: 0;
+    padding-top: 10px;
+}
+
+.search {
+    font-size: 16px;
+    width: 487px;
+    height: 34px;
+    margin: 10px;
+}
+
+.button {
+    margin-top: 30px;
+    margin-left: 10px;
+    margin-right: 10px;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    padding-left: 10px;
+    padding-right: 10px;
+}
+
+a.top {
+    margin-left: 10px;
+    margin-right: 10px;
+}
+
+
+a.bottom {
+    
+    margin-left: 10px;
+    margin-right: 10px;
 }
