@@ -99,7 +99,7 @@ a.bottom {
     left: 20px;
     display: inline-block;
     text-align: left;
-    padding: 6px;
+    padding: 11px;
 }
 
 .rightsection1 {
@@ -131,4 +131,13 @@ a.bottom {
     text-align: right;
 }
 
+.dots {
+    position: relative;
+    top: 5px;
+    height: 24px;
+    width: 24px;
+}
 
+.nohover a:hover {
+    text-decoration:none;
+}
