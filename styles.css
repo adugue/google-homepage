@@ -37,6 +37,10 @@ button {
     padding-top: 10px;
 }
 
+.footer a {
+    color: #70757a;
+}
+
 .search {
     font-size: 16px;
     width: 487px;
@@ -64,9 +68,12 @@ button {
 }
 
 .top {
-
     height:75px;
     padding-top:10px;
+}
+
+.top a {
+    color: black;
 }
 
 a {
