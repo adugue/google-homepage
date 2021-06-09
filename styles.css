@@ -43,11 +43,20 @@ button {
 
 .search {
     font-size: 16px;
+    color: #3c4043;
     width: 487px;
     height: 34px;
     margin: 10px;
     margin-top: 25px;
+    border-radius: 25px;
+    padding-left: 25px;
+    border: 1px solid rgb(196, 196, 196);
 }
+
+.search:focus {
+    outline: none;
+}
+
 
 .smallbutton {
     display:inline-block;
@@ -61,10 +70,18 @@ button {
     margin-top: 25px;
     margin-left: 10px;
     margin-right: 10px;
-    padding-top: 5px;
-    padding-bottom: 5px;
-    padding-left: 10px;
-    padding-right: 10px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    padding-left: 20px;
+    padding-right: 20px;
+    border-radius: 5px;
+    border: solid 1px white;
+}
+
+.largebutton:hover {
+    color: black;
+    border: solid 1px #8888889f;
+    box-shadow: 1px 1px 3px #8888889f;
 }
 
 .top {
@@ -129,6 +146,13 @@ a.bottom {
     right: 20px;
     display: inline-block;
     text-align: right;
+}
+
+a.above-nohover {
+    height: 30px;
+    margin-left: 10px;
+    margin-right: 10px;
+    text-decoration: none;
 }
 
 .dots {
