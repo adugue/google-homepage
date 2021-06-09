@@ -44,13 +44,19 @@ button {
 .search {
     font-size: 16px;
     color: #3c4043;
-    width: 487px;
+    width: 480px;
     height: 34px;
     margin: 10px;
     margin-top: 25px;
     border-radius: 25px;
+    padding: 5px;
     padding-left: 25px;
+    padding-right: 25px;
     border: 1px solid rgb(196, 196, 196);
+}
+
+.search:hover {
+    box-shadow: 1px 1px 3px #8888889f;
 }
 
 .search:focus {
@@ -67,7 +73,7 @@ button {
 }
 
 .largebutton {
-    margin-top: 25px;
+    margin-top: 20px;
     margin-left: 10px;
     margin-right: 10px;
     padding-top: 10px;
